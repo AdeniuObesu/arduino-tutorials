@@ -1,4 +1,5 @@
 #include <IRremote.h>
+// Get the IRemote library IRremote-2.2.3
 int IRpin = 8;
 IRrecv sensor(IRpin);
 decode_results cmd;
