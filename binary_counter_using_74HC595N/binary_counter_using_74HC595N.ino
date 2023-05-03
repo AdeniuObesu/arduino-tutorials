@@ -18,7 +18,7 @@ void setup() {
 void loop() {
   while(leds++ < 0xFF){
     Serial.print("PRINTING : ");
-    Serial.println(leds, HEX);
+    Serial.println(leds);
     delay(pause);
     
     digitalWrite(latchPin, LOW);
