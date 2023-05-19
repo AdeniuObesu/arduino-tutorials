@@ -8,8 +8,8 @@ void setup() {
 }
 
 void loop() {
-  myStepper.step(stepsPerRevolution);
+  myStepper.step(stepsPerRevolution); // clock wise direction
   delay(pause);
-  myStepper.step(-stepsPerRevolution);
+  myStepper.step(-stepsPerRevolution); // counter clock wise direction
   delay(pause);
 }
